@@ -19,13 +19,3 @@ class Address
     address
   end
 end
-
-home = Address.new
-home.kind = "Home"
-home.street_1 = "100 West Main St."
-home.city = "Chattanooga"
-home.state = "TN"
-home.postal_code = "30740"
-
-puts home.to_s('short')
-puts home.to_s('long')
